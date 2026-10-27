@@ -1,0 +1,8 @@
+Howard Fletcher
+Mobile App Development
+10/27/26
+
+1. Trace the local tip feature from button tap to displayed text. Which widget/state changes during the simulated loading state, and how does the user recover from the local error case?
+Answer: 
+2. Why must the app keep form validation local even when it can ask an AI for a tip? Give one example of a bad decision if AI were allowed to approve signup.
+Answer: 
