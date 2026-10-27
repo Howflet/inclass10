@@ -1,8 +1,14 @@
 Howard Fletcher
 Mobile App Development
 10/27/26
+https://github.com/Howflet/inclass10
 
-1. Trace the local tip feature from button tap to displayed text. Which widget/state changes during the simulated loading state, and how does the user recover from the local error case?
-Answer: 
-2. Why must the app keep form validation local even when it can ask an AI for a tip? Give one example of a bad decision if AI were allowed to approve signup.
-Answer: 
+1. Trace the local tip feature from button tap to displayed text. 
+Which widget/state changes during the simulated loading state, 
+and how does the user recover from the local error case?
+Answer: _tipLoading becomes true, _tipText and _tipError become null.
+2. Why must the app keep form validation local even when it can ask an AI for a tip? 
+Give one example of a bad decision if AI were allowed to approve signup.
+Answer: Validation is a fixed rule the app enforces every time and the AI tip would be 
+the only advice. An example of a bad decision is an AI looking at at password like "pass" 
+and an email like "bad_email" and approving it for signup despite it being bad data.
